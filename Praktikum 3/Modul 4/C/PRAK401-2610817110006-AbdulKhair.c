@@ -6,9 +6,9 @@ int main() {
 
     for (int i = 1; i <= 50; i++) {
         if (i % multiples == 0) {
-            printf("%c", symbol);
+            printf(" %c ", symbol);
         } else {
-            printf("%d", i);
+            printf(" %d ", i);
         }
     }
     return 0;

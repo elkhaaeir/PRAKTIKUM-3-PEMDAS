@@ -2,7 +2,7 @@
 
 int main() {
     int n, multiple;
-    int total, total_all;
+    int total, total_all = 0;
 
     scanf("%d", &n);
     scanf("%d", &multiple);

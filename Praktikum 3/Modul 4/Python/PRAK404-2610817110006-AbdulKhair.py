@@ -1,7 +1,7 @@
 choose = 0
 
 while choose !=5:
-    print("/nPilih Program")
+    print("\nPilih Program")
     print("1. Penjumlahan")
     print("2. Pengurangan")
     print("3. Perkalian")

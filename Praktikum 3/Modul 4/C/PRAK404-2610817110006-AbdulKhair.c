@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int pilihan = 0;
+    int choose = 0;
     float first, second, results;
 
-    while(pilihan != 5) {
+    while(choose != 5) {
         printf("\nPilih Program\n");
         printf("1. Penjumlahan\n");
         printf("2. Pengurangan\n");
@@ -13,22 +13,22 @@ int main() {
         printf("5. Exit\n");
 
         printf("Masukkan Pilihan: ");
-        scanf("%d", &pilihan);
+        scanf("%d", &choose);
 
-        if(pilihan >= 1 && pilihan <= 4) {
+        if(choose >= 1 && choose <= 4) {
             printf("Masukkan Nilai Pertama: ");
             scanf("%f", &first);
 
             printf("Masukkan Nilai Kedua: ");
             scanf("%f", &second);
 
-            if(pilihan == 1) {
+            if(choose == 1) {
                 results = first + second;
                 printf("Hasil penjumlahan antara %.2f dengan %.2f adalah %.2f\n", first, second, results);
-            } else if(pilihan == 2) {
+            } else if(choose == 2) {
                 results = first - second;
                 printf("Hasil pengurangan antara %.2f dengan %.2f adalah %.2f\n", first, second, results);
-            } else if(pilihan == 3) {
+            } else if(choose == 3) {
                 results = first * second;
                 printf("Hasil perkalian antara %.2f dengan %.2f adalah %.2f\n", first, second, results);
             } else {
@@ -39,7 +39,7 @@ int main() {
                     printf("Tidak dapat membagi dengan nol\n");
                 }
             }
-        } else if(pilihan == 5) {
+        } else if(choose == 5) {
             printf("Terimakasih, Telah Menggunakan Kalkulator Abdul Khair\n");
         } else {
             printf("Input Anda Salah, Coba Lagi\n");
